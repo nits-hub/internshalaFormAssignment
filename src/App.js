@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="w-screen min-h-screen bg-[#E1EBEE]">
       <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/internshalaFormAssignment" element={<Home />} />
           <Route path="/event-registration-form" element={<EventRegistration />} />
           <Route path="/job-regsitration-form" element={<JobRegistration />} />
           <Route path='/survey-registration-form' element={<Survey />} />
